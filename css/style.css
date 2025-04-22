@@ -1,0 +1,134 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #058512;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  
+  header h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #ccc;
+  }
+  
+  /* Navbar */
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 12px;
+    transition: background 0.3s;
+  }
+  
+  .navbar li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1e2a38;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+  }
+  
+  /* Main Section */
+  main {
+    padding: 30px 20px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  /* Intro Text */
+  .intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .intro-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  .intro-section p {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  /* Tech Grid Section */
+  .tech-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+  }
+  
+  .tech-grid div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tech-grid img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-grid img:hover {
+    transform: scale(1.1);
+  }
+  
+  .tech-grid p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
